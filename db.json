@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "React Game",
+        "description": "Minesweeper game created using React.",
+        "link": "https://safe-waters-55332.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "title": "Weather App",
+        "description": "Weather app created using React.",
+        "link": "https://github.com/AnnieLoxton/WeatherApp.git"
+    },
+    {
+        "id": 3,
+        "title": "Online Store",
+        "description": "Online store created using HTML, CSS and JavaScript",
+        "link": "https://github.com/AnnieLoxton/onlineStore.git"
+    }
+]
