@@ -27,13 +27,5 @@ app.use(morgan('dev'));
 //Routes
 app.use('/api', routes);
 
-//Change Express file to call React build assets.
-if (process.env.NODE_ENV === 'production'){
-    app.use(express.static(path.join(__dirname, 'frontend/build')));
-    app.get('*',(req,res)=> {res.sendFile(path.resolve(__dirname,
-    'frontend', 'build','index.html'));
-    });
-}
-
 //Listening on PORT
 app.listen(port, () => console.log(`Listening on port ${port}`));
